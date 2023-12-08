@@ -5,4 +5,6 @@ This folder contains :
  - the gnu-radio files that were created based on the jamrf repo
  - the modified jamrf repo 
  
- The details are in the google doc 
+ The details are in [the following Google doc](https://docs.google.com/document/d/1SLovtQ420RU0NZxuNXsHVRes0hJmUBwpnXCAgbh3qLs/edit?pli=1)
+
+
