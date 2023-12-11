@@ -6,3 +6,5 @@ Cybersecurity: Moving computation and data processing services to the edge, far 
 
 ![Use Case 4 - CyberSecurity](img/uc_hl_archi.png)
 
+All information regarding the jamming attack on the wifi are described in [Readme](wifi-jamming/README.md).
+See also the related [Google Doc](https://docs.google.com/document/d/1SLovtQ420RU0NZxuNXsHVRes0hJmUBwpnXCAgbh3qLs/edit?pli=1)
