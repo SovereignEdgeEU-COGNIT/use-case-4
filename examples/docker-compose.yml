@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  device_client_runtime:
+    container_name: device_client_runtime
+    build:
+      context: ./..
+      dockerfile: ./examples/Dockerfile
+    stdin_open: true
+    tty: true
+    network_mode: host

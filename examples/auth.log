@@ -1,0 +1,307 @@
+Apr  7 00:17:01 cognit-device-runtime CRON[224773]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 00:17:01 cognit-device-runtime CRON[224773]: pam_unix(cron:session): session closed for user root
+Apr  7 01:17:01 cognit-device-runtime CRON[224798]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 01:17:01 cognit-device-runtime CRON[224798]: pam_unix(cron:session): session closed for user root
+Apr  7 02:17:01 cognit-device-runtime CRON[224809]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 02:17:01 cognit-device-runtime CRON[224809]: pam_unix(cron:session): session closed for user root
+Apr  7 03:10:01 cognit-device-runtime CRON[224877]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 03:10:01 cognit-device-runtime CRON[224877]: pam_unix(cron:session): session closed for user root
+Apr  7 03:17:01 cognit-device-runtime CRON[224885]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 03:17:01 cognit-device-runtime CRON[224885]: pam_unix(cron:session): session closed for user root
+Apr  7 03:30:01 cognit-device-runtime CRON[224893]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 03:30:01 cognit-device-runtime CRON[224893]: pam_unix(cron:session): session closed for user root
+Apr  7 04:17:01 cognit-device-runtime CRON[224907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 04:17:01 cognit-device-runtime CRON[224907]: pam_unix(cron:session): session closed for user root
+Apr  7 05:17:01 cognit-device-runtime CRON[224923]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 05:17:01 cognit-device-runtime CRON[224923]: pam_unix(cron:session): session closed for user root
+Apr  7 06:17:01 cognit-device-runtime CRON[225005]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 06:17:02 cognit-device-runtime CRON[225005]: pam_unix(cron:session): session closed for user root
+Apr  7 06:25:01 cognit-device-runtime CRON[225010]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 06:25:01 cognit-device-runtime CRON[225010]: pam_unix(cron:session): session closed for user root
+Apr  7 06:47:01 cognit-device-runtime CRON[225026]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 06:47:03 cognit-device-runtime CRON[225026]: pam_unix(cron:session): session closed for user root
+Apr  7 07:17:01 cognit-device-runtime CRON[225038]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 07:17:02 cognit-device-runtime CRON[225038]: pam_unix(cron:session): session closed for user root
+Apr  7 08:17:01 cognit-device-runtime CRON[225052]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 08:17:01 cognit-device-runtime CRON[225052]: pam_unix(cron:session): session closed for user root
+Apr  7 09:17:01 cognit-device-runtime CRON[225103]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 09:17:01 cognit-device-runtime CRON[225103]: pam_unix(cron:session): session closed for user root
+Apr  7 10:17:01 cognit-device-runtime CRON[225704]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 10:17:02 cognit-device-runtime CRON[225704]: pam_unix(cron:session): session closed for user root
+Apr  7 11:17:01 cognit-device-runtime CRON[225725]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 11:17:02 cognit-device-runtime CRON[225725]: pam_unix(cron:session): session closed for user root
+Apr  7 12:17:01 cognit-device-runtime CRON[225744]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 12:17:02 cognit-device-runtime CRON[225744]: pam_unix(cron:session): session closed for user root
+Apr  7 13:17:01 cognit-device-runtime CRON[225798]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 13:17:02 cognit-device-runtime CRON[225798]: pam_unix(cron:session): session closed for user root
+Apr  7 14:17:01 cognit-device-runtime CRON[225812]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 14:17:02 cognit-device-runtime CRON[225812]: pam_unix(cron:session): session closed for user root
+Apr  7 15:17:01 cognit-device-runtime CRON[225824]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 15:17:02 cognit-device-runtime CRON[225824]: pam_unix(cron:session): session closed for user root
+Apr  7 16:17:01 cognit-device-runtime CRON[225838]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 16:17:02 cognit-device-runtime CRON[225838]: pam_unix(cron:session): session closed for user root
+Apr  7 17:17:01 cognit-device-runtime CRON[225851]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 17:17:02 cognit-device-runtime CRON[225851]: pam_unix(cron:session): session closed for user root
+Apr  7 18:17:01 cognit-device-runtime CRON[225863]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 18:17:02 cognit-device-runtime CRON[225863]: pam_unix(cron:session): session closed for user root
+Apr  7 19:17:01 cognit-device-runtime CRON[225875]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 19:17:02 cognit-device-runtime CRON[225875]: pam_unix(cron:session): session closed for user root
+Apr  7 20:17:01 cognit-device-runtime CRON[225894]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 20:17:02 cognit-device-runtime CRON[225894]: pam_unix(cron:session): session closed for user root
+Apr  7 21:17:01 cognit-device-runtime CRON[225907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 21:17:01 cognit-device-runtime CRON[225907]: pam_unix(cron:session): session closed for user root
+Apr  7 22:17:01 cognit-device-runtime CRON[225920]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 22:17:01 cognit-device-runtime CRON[225920]: pam_unix(cron:session): session closed for user root
+Apr  7 23:17:01 cognit-device-runtime CRON[225932]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 23:17:01 cognit-device-runtime CRON[225932]: pam_unix(cron:session): session closed for user root
+Apr  8 00:17:01 cognit-device-runtime CRON[225957]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 00:17:02 cognit-device-runtime CRON[225957]: pam_unix(cron:session): session closed for user root
+Apr  8 01:17:01 cognit-device-runtime CRON[226560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 01:17:01 cognit-device-runtime CRON[226560]: pam_unix(cron:session): session closed for user root
+Apr  8 02:17:01 cognit-device-runtime CRON[226576]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 02:17:01 cognit-device-runtime CRON[226576]: pam_unix(cron:session): session closed for user root
+Apr  8 03:10:01 cognit-device-runtime CRON[226598]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 03:10:01 cognit-device-runtime CRON[226598]: pam_unix(cron:session): session closed for user root
+Apr  8 03:17:01 cognit-device-runtime CRON[226602]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 03:17:01 cognit-device-runtime CRON[226602]: pam_unix(cron:session): session closed for user root
+Apr  8 04:17:01 cognit-device-runtime CRON[226629]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 04:17:01 cognit-device-runtime CRON[226629]: pam_unix(cron:session): session closed for user root
+Apr  8 05:17:01 cognit-device-runtime CRON[226641]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 05:17:01 cognit-device-runtime CRON[226641]: pam_unix(cron:session): session closed for user root
+Apr  8 06:17:01 cognit-device-runtime CRON[226765]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 06:17:01 cognit-device-runtime CRON[226765]: pam_unix(cron:session): session closed for user root
+Apr  8 06:25:01 cognit-device-runtime CRON[226771]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 06:25:02 cognit-device-runtime CRON[226771]: pam_unix(cron:session): session closed for user root
+Apr  8 07:17:01 cognit-device-runtime CRON[226795]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 07:17:01 cognit-device-runtime CRON[226795]: pam_unix(cron:session): session closed for user root
+Apr  8 08:17:01 cognit-device-runtime CRON[226821]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 08:17:01 cognit-device-runtime CRON[226821]: pam_unix(cron:session): session closed for user root
+Apr  8 09:17:01 cognit-device-runtime CRON[226835]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 09:17:02 cognit-device-runtime CRON[226835]: pam_unix(cron:session): session closed for user root
+Apr  8 10:17:01 cognit-device-runtime CRON[226853]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 10:17:01 cognit-device-runtime CRON[226853]: pam_unix(cron:session): session closed for user root
+Apr  8 11:17:01 cognit-device-runtime CRON[226864]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 11:17:01 cognit-device-runtime CRON[226864]: pam_unix(cron:session): session closed for user root
+Apr  8 12:17:01 cognit-device-runtime CRON[226882]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 12:17:01 cognit-device-runtime CRON[226882]: pam_unix(cron:session): session closed for user root
+Apr  8 13:17:01 cognit-device-runtime CRON[226894]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 13:17:02 cognit-device-runtime CRON[226894]: pam_unix(cron:session): session closed for user root
+Apr  8 14:17:01 cognit-device-runtime CRON[226906]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 14:17:02 cognit-device-runtime CRON[226906]: pam_unix(cron:session): session closed for user root
+Apr  8 15:17:01 cognit-device-runtime CRON[226968]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 15:17:01 cognit-device-runtime CRON[226968]: pam_unix(cron:session): session closed for user root
+Apr  8 16:17:01 cognit-device-runtime CRON[227021]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 16:17:01 cognit-device-runtime CRON[227021]: pam_unix(cron:session): session closed for user root
+Apr  8 17:17:01 cognit-device-runtime CRON[227034]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 17:17:01 cognit-device-runtime CRON[227034]: pam_unix(cron:session): session closed for user root
+Apr  8 18:17:01 cognit-device-runtime CRON[227046]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 18:17:02 cognit-device-runtime CRON[227046]: pam_unix(cron:session): session closed for user root
+Apr  8 19:17:01 cognit-device-runtime CRON[227101]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 19:17:01 cognit-device-runtime CRON[227101]: pam_unix(cron:session): session closed for user root
+Apr  8 20:17:01 cognit-device-runtime CRON[227115]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 20:17:02 cognit-device-runtime CRON[227115]: pam_unix(cron:session): session closed for user root
+Apr  8 21:17:01 cognit-device-runtime CRON[227180]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 21:17:01 cognit-device-runtime CRON[227180]: pam_unix(cron:session): session closed for user root
+Apr  8 22:17:01 cognit-device-runtime CRON[227195]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 22:17:02 cognit-device-runtime CRON[227195]: pam_unix(cron:session): session closed for user root
+Apr  8 23:17:01 cognit-device-runtime CRON[227208]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  8 23:17:02 cognit-device-runtime CRON[227208]: pam_unix(cron:session): session closed for user root
+Apr  9 00:17:01 cognit-device-runtime CRON[227230]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 00:17:02 cognit-device-runtime CRON[227230]: pam_unix(cron:session): session closed for user root
+Apr  9 01:17:01 cognit-device-runtime CRON[227245]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 01:17:02 cognit-device-runtime CRON[227245]: pam_unix(cron:session): session closed for user root
+Apr  9 02:17:01 cognit-device-runtime CRON[227257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 02:17:02 cognit-device-runtime CRON[227257]: pam_unix(cron:session): session closed for user root
+Apr  9 03:10:01 cognit-device-runtime CRON[227267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 03:10:02 cognit-device-runtime CRON[227267]: pam_unix(cron:session): session closed for user root
+Apr  9 03:17:01 cognit-device-runtime CRON[227270]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 03:17:01 cognit-device-runtime CRON[227270]: pam_unix(cron:session): session closed for user root
+Apr  9 04:17:01 cognit-device-runtime CRON[227281]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 04:17:02 cognit-device-runtime CRON[227281]: pam_unix(cron:session): session closed for user root
+Apr  9 05:17:01 cognit-device-runtime CRON[227294]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 05:17:02 cognit-device-runtime CRON[227294]: pam_unix(cron:session): session closed for user root
+Apr  9 06:17:01 cognit-device-runtime CRON[227391]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 06:17:02 cognit-device-runtime CRON[227391]: pam_unix(cron:session): session closed for user root
+Apr  9 06:25:01 cognit-device-runtime CRON[227397]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 06:25:01 cognit-device-runtime CRON[227397]: pam_unix(cron:session): session closed for user root
+Apr  9 07:17:01 cognit-device-runtime CRON[227458]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 07:17:02 cognit-device-runtime CRON[227458]: pam_unix(cron:session): session closed for user root
+Apr  9 08:17:01 cognit-device-runtime CRON[227473]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 08:17:02 cognit-device-runtime CRON[227473]: pam_unix(cron:session): session closed for user root
+Apr  9 09:17:01 cognit-device-runtime CRON[227487]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 09:17:02 cognit-device-runtime CRON[227487]: pam_unix(cron:session): session closed for user root
+Apr  9 10:17:01 cognit-device-runtime CRON[227501]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 10:17:02 cognit-device-runtime CRON[227501]: pam_unix(cron:session): session closed for user root
+Apr  9 11:17:01 cognit-device-runtime CRON[227518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 11:17:01 cognit-device-runtime CRON[227518]: pam_unix(cron:session): session closed for user root
+Apr  9 12:17:01 cognit-device-runtime CRON[227539]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 12:17:01 cognit-device-runtime CRON[227539]: pam_unix(cron:session): session closed for user root
+Apr  9 13:17:01 cognit-device-runtime CRON[227551]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 13:17:01 cognit-device-runtime CRON[227551]: pam_unix(cron:session): session closed for user root
+Apr  9 14:17:01 cognit-device-runtime CRON[227565]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 14:17:01 cognit-device-runtime CRON[227565]: pam_unix(cron:session): session closed for user root
+Apr  9 15:17:01 cognit-device-runtime CRON[227579]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 15:17:02 cognit-device-runtime CRON[227579]: pam_unix(cron:session): session closed for user root
+Apr  9 16:17:01 cognit-device-runtime CRON[227593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 16:17:02 cognit-device-runtime CRON[227593]: pam_unix(cron:session): session closed for user root
+Apr  9 17:17:01 cognit-device-runtime CRON[228231]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 17:17:01 cognit-device-runtime CRON[228231]: pam_unix(cron:session): session closed for user root
+Apr  9 18:17:01 cognit-device-runtime CRON[228257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 18:17:01 cognit-device-runtime CRON[228257]: pam_unix(cron:session): session closed for user root
+Apr  9 19:17:01 cognit-device-runtime CRON[228270]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 19:17:01 cognit-device-runtime CRON[228270]: pam_unix(cron:session): session closed for user root
+Apr  9 20:17:01 cognit-device-runtime CRON[228285]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 20:17:01 cognit-device-runtime CRON[228285]: pam_unix(cron:session): session closed for user root
+Apr  9 21:17:01 cognit-device-runtime CRON[228300]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 21:17:01 cognit-device-runtime CRON[228300]: pam_unix(cron:session): session closed for user root
+Apr  9 22:17:01 cognit-device-runtime CRON[228312]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 22:17:01 cognit-device-runtime CRON[228312]: pam_unix(cron:session): session closed for user root
+Apr  9 23:17:01 cognit-device-runtime CRON[228324]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  9 23:17:01 cognit-device-runtime CRON[228324]: pam_unix(cron:session): session closed for user root
+Apr 10 00:17:01 cognit-device-runtime CRON[228348]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 00:17:01 cognit-device-runtime CRON[228348]: pam_unix(cron:session): session closed for user root
+Apr 10 01:17:01 cognit-device-runtime CRON[228366]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 01:17:01 cognit-device-runtime CRON[228366]: pam_unix(cron:session): session closed for user root
+Apr 10 02:17:01 cognit-device-runtime CRON[228963]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 02:17:01 cognit-device-runtime CRON[228963]: pam_unix(cron:session): session closed for user root
+Apr 10 03:10:01 cognit-device-runtime CRON[229016]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 03:10:01 cognit-device-runtime CRON[229016]: pam_unix(cron:session): session closed for user root
+Apr 10 03:17:01 cognit-device-runtime CRON[229020]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 03:17:01 cognit-device-runtime CRON[229020]: pam_unix(cron:session): session closed for user root
+Apr 10 04:17:01 cognit-device-runtime CRON[229231]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 04:17:01 cognit-device-runtime CRON[229231]: pam_unix(cron:session): session closed for user root
+Apr 10 05:17:01 cognit-device-runtime CRON[229246]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 05:17:01 cognit-device-runtime CRON[229246]: pam_unix(cron:session): session closed for user root
+Apr 10 06:17:01 cognit-device-runtime CRON[229442]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 06:17:01 cognit-device-runtime CRON[229442]: pam_unix(cron:session): session closed for user root
+Apr 10 06:25:01 cognit-device-runtime CRON[242335]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 06:25:02 cognit-device-runtime CRON[242335]: pam_unix(cron:session): session closed for user root
+Apr 10 07:17:01 cognit-device-runtime CRON[242357]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 07:17:02 cognit-device-runtime CRON[242357]: pam_unix(cron:session): session closed for user root
+Apr 10 08:17:01 cognit-device-runtime CRON[242373]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 08:17:02 cognit-device-runtime CRON[242373]: pam_unix(cron:session): session closed for user root
+Apr 10 09:17:01 cognit-device-runtime CRON[242453]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 09:17:02 cognit-device-runtime CRON[242453]: pam_unix(cron:session): session closed for user root
+Apr 10 10:17:01 cognit-device-runtime CRON[242466]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 10:17:01 cognit-device-runtime CRON[242466]: pam_unix(cron:session): session closed for user root
+Apr 10 11:17:01 cognit-device-runtime CRON[242478]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 11:17:02 cognit-device-runtime CRON[242478]: pam_unix(cron:session): session closed for user root
+Apr 10 12:17:01 cognit-device-runtime CRON[242496]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 12:17:01 cognit-device-runtime CRON[242496]: pam_unix(cron:session): session closed for user root
+Apr 10 13:17:01 cognit-device-runtime CRON[242513]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 13:17:02 cognit-device-runtime CRON[242513]: pam_unix(cron:session): session closed for user root
+Apr 10 14:17:01 cognit-device-runtime CRON[242539]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 14:17:02 cognit-device-runtime CRON[242539]: pam_unix(cron:session): session closed for user root
+Apr 10 15:17:01 cognit-device-runtime CRON[242553]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 15:17:01 cognit-device-runtime CRON[242553]: pam_unix(cron:session): session closed for user root
+Apr 10 16:17:01 cognit-device-runtime CRON[242571]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 16:17:02 cognit-device-runtime CRON[242571]: pam_unix(cron:session): session closed for user root
+Apr 10 17:17:01 cognit-device-runtime CRON[242584]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 17:17:01 cognit-device-runtime CRON[242584]: pam_unix(cron:session): session closed for user root
+Apr 10 18:17:01 cognit-device-runtime CRON[242598]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 18:17:02 cognit-device-runtime CRON[242598]: pam_unix(cron:session): session closed for user root
+Apr 10 19:17:01 cognit-device-runtime CRON[242613]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 19:17:02 cognit-device-runtime CRON[242613]: pam_unix(cron:session): session closed for user root
+Apr 10 20:17:01 cognit-device-runtime CRON[242625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 20:17:02 cognit-device-runtime CRON[242625]: pam_unix(cron:session): session closed for user root
+Apr 10 21:17:01 cognit-device-runtime CRON[242639]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 21:17:02 cognit-device-runtime CRON[242639]: pam_unix(cron:session): session closed for user root
+Apr 10 22:17:01 cognit-device-runtime CRON[242698]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 22:17:01 cognit-device-runtime CRON[242698]: pam_unix(cron:session): session closed for user root
+Apr 10 23:17:01 cognit-device-runtime CRON[242714]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 23:17:02 cognit-device-runtime CRON[242714]: pam_unix(cron:session): session closed for user root
+Apr 11 00:17:01 cognit-device-runtime CRON[242807]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 00:17:02 cognit-device-runtime CRON[242807]: pam_unix(cron:session): session closed for user root
+Apr 11 01:17:01 cognit-device-runtime CRON[242823]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 01:17:01 cognit-device-runtime CRON[242823]: pam_unix(cron:session): session closed for user root
+Apr 11 02:17:01 cognit-device-runtime CRON[242836]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 02:17:01 cognit-device-runtime CRON[242836]: pam_unix(cron:session): session closed for user root
+Apr 11 03:10:01 cognit-device-runtime CRON[242860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 03:10:01 cognit-device-runtime CRON[242860]: pam_unix(cron:session): session closed for user root
+Apr 11 03:17:01 cognit-device-runtime CRON[242864]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 03:17:01 cognit-device-runtime CRON[242864]: pam_unix(cron:session): session closed for user root
+Apr 11 04:17:01 cognit-device-runtime CRON[242921]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 04:17:02 cognit-device-runtime CRON[242921]: pam_unix(cron:session): session closed for user root
+Apr 11 05:17:01 cognit-device-runtime CRON[242937]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 05:17:01 cognit-device-runtime CRON[242937]: pam_unix(cron:session): session closed for user root
+Apr 11 06:17:01 cognit-device-runtime CRON[243538]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 06:17:01 cognit-device-runtime CRON[243538]: pam_unix(cron:session): session closed for user root
+Apr 11 06:25:01 cognit-device-runtime CRON[243544]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 06:25:01 cognit-device-runtime CRON[243544]: pam_unix(cron:session): session closed for user root
+Apr 11 07:17:01 cognit-device-runtime CRON[246647]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 07:17:01 cognit-device-runtime CRON[246647]: pam_unix(cron:session): session closed for user root
+Apr 11 08:17:01 cognit-device-runtime CRON[246663]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 08:17:01 cognit-device-runtime CRON[246663]: pam_unix(cron:session): session closed for user root
+Apr 11 09:17:01 cognit-device-runtime CRON[246682]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 09:17:01 cognit-device-runtime CRON[246682]: pam_unix(cron:session): session closed for user root
+Apr 11 10:17:01 cognit-device-runtime CRON[246695]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 10:17:01 cognit-device-runtime CRON[246695]: pam_unix(cron:session): session closed for user root
+Apr 11 11:17:01 cognit-device-runtime CRON[246708]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 11:17:02 cognit-device-runtime CRON[246708]: pam_unix(cron:session): session closed for user root
+Apr 11 12:17:01 cognit-device-runtime CRON[246726]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 12:17:02 cognit-device-runtime CRON[246726]: pam_unix(cron:session): session closed for user root
+Apr 11 13:17:01 cognit-device-runtime CRON[246741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 13:17:04 cognit-device-runtime CRON[246741]: pam_unix(cron:session): session closed for user root
+Apr 11 14:17:01 cognit-device-runtime CRON[246752]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 14:17:01 cognit-device-runtime CRON[246752]: pam_unix(cron:session): session closed for user root
+Apr 11 15:17:01 cognit-device-runtime CRON[246763]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 15:17:01 cognit-device-runtime CRON[246763]: pam_unix(cron:session): session closed for user root
+Apr 11 16:17:01 cognit-device-runtime CRON[246778]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 16:17:02 cognit-device-runtime CRON[246778]: pam_unix(cron:session): session closed for user root
+Apr 11 17:17:01 cognit-device-runtime CRON[246843]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 17:17:01 cognit-device-runtime CRON[246843]: pam_unix(cron:session): session closed for user root
+Apr 11 18:17:01 cognit-device-runtime CRON[246858]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 18:17:01 cognit-device-runtime CRON[246858]: pam_unix(cron:session): session closed for user root
+Apr 11 19:17:01 cognit-device-runtime CRON[246870]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 19:17:01 cognit-device-runtime CRON[246870]: pam_unix(cron:session): session closed for user root
+Apr 11 20:17:01 cognit-device-runtime CRON[246923]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 20:17:02 cognit-device-runtime CRON[246923]: pam_unix(cron:session): session closed for user root
+Apr 11 21:17:01 cognit-device-runtime CRON[246934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 21:17:02 cognit-device-runtime CRON[246934]: pam_unix(cron:session): session closed for user root
+Apr 11 22:17:01 cognit-device-runtime CRON[246961]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 22:17:02 cognit-device-runtime CRON[246961]: pam_unix(cron:session): session closed for user root
+Apr 11 23:17:01 cognit-device-runtime CRON[246973]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 11 23:17:01 cognit-device-runtime CRON[246973]: pam_unix(cron:session): session closed for user root
+Apr 12 00:17:01 cognit-device-runtime CRON[247084]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 00:17:01 cognit-device-runtime CRON[247084]: pam_unix(cron:session): session closed for user root
+Apr 12 01:17:01 cognit-device-runtime CRON[247100]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 01:17:02 cognit-device-runtime CRON[247100]: pam_unix(cron:session): session closed for user root
+Apr 12 02:17:01 cognit-device-runtime CRON[247115]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 02:17:01 cognit-device-runtime CRON[247115]: pam_unix(cron:session): session closed for user root
+Apr 12 03:10:01 cognit-device-runtime CRON[247129]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 03:10:02 cognit-device-runtime CRON[247129]: pam_unix(cron:session): session closed for user root
+Apr 12 03:17:01 cognit-device-runtime CRON[247133]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 03:17:01 cognit-device-runtime CRON[247133]: pam_unix(cron:session): session closed for user root
+Apr 12 04:17:01 cognit-device-runtime CRON[247731]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 04:17:02 cognit-device-runtime CRON[247731]: pam_unix(cron:session): session closed for user root
+Apr 12 05:17:01 cognit-device-runtime CRON[247748]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 05:17:02 cognit-device-runtime CRON[247748]: pam_unix(cron:session): session closed for user root
+Apr 12 06:17:01 cognit-device-runtime CRON[248029]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 06:17:01 cognit-device-runtime CRON[248029]: pam_unix(cron:session): session closed for user root
+Apr 12 06:25:01 cognit-device-runtime CRON[248036]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 06:25:02 cognit-device-runtime CRON[248036]: pam_unix(cron:session): session closed for user root
+Apr 12 07:17:01 cognit-device-runtime CRON[248056]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 07:17:02 cognit-device-runtime CRON[248056]: pam_unix(cron:session): session closed for user root
+Apr 12 08:17:01 cognit-device-runtime CRON[248117]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 08:17:02 cognit-device-runtime CRON[248117]: pam_unix(cron:session): session closed for user root
+Apr 12 09:17:01 cognit-device-runtime CRON[248132]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr 12 09:17:02 cognit-device-runtime CRON[248132]: pam_unix(cron:session): session closed for user root
+Apr 12 09:20:53 cognit-device-runtime sshd[248136]: Accepted password for test-user-cognit from X.X.X.X port 52930 ssh2
+Apr 12 09:20:53 cognit-device-runtime sshd[248136]: pam_unix(sshd:session): session opened for user test-user-cognit(uid=1002) by (uid=0)
+Apr 12 09:20:53 cognit-device-runtime systemd-logind[670]: New session 3024 of user test-user-cognit.
+Apr 12 09:22:31 cognit-device-runtime sshd[248237]: Received disconnect from X.X.X.X port 52930:11: disconnected by user
+Apr 12 09:22:31 cognit-device-runtime sshd[248237]: Disconnected from user test-user-cognit X.X.X.X port 52930
+Apr 12 09:22:31 cognit-device-runtime sshd[248136]: pam_unix(sshd:session): session closed for user test-user-cognit
+Apr 12 09:22:31 cognit-device-runtime systemd-logind[670]: Session 3024 logged out. Waiting for processes to exit.
+Apr 12 09:22:31 cognit-device-runtime systemd-logind[670]: Removed session 3024.
+Apr 12 09:22:36 cognit-device-runtime sshd[248279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=X.X.X.X  user=atthacker
+Apr 12 09:22:37 cognit-device-runtime sshd[248279]: Failed password for atthacker from X.X.X.X port 52974 ssh2
+Apr 12 09:22:43 cognit-device-runtime sshd[248279]: Accepted password for atthacker from X.X.X.X port 52974 ssh2
+Apr 12 09:22:43 cognit-device-runtime systemd-logind[670]: New session 3025 of user test-user-cognit.
+Apr 12 09:24:30 cognit-device-runtime sudo: test-user-cognit : TTY=pts/0 ; PWD=/home/test-user-cognit ; USER=root ; COMMAND=/usr/bin/rm -R device-runtime-py
+Apr 12 09:24:30 cognit-device-runtime sudo: pam_unix(sudo:session): session opened for user root(uid=0) by test-user-cognit(uid=1002)
+Apr 12 09:24:33 cognit-device-runtime sudo: pam_unix(sudo:session): session closed for user root
+Apr 12 09:52:43 cognit-device-runtime sudo: pam_unix(sudo:auth): authentication failure; logname=test-user-cognit uid=1002 euid=0 tty=/dev/pts/0 ruser=test-user-cognit rhost=  user=test-user-cognit
+Apr 12 10:22:36 cognit-device-runtime sshd[248279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=X.X.X.X  user=atthacker
+Apr 12 10:22:39 cognit-device-runtime sshd[248279]: Failed password for atthacker from X.X.X.X port 52974 ssh2
+Apr 12 10:22:53 cognit-device-runtime sshd[248279]: Accepted password for atthacker from X.X.X.X port 52974 ssh2
