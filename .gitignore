@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+cognit/bin/
+cognit/include
+cognit/lib*
+cognit/pyvenv.cfg
+*.egg*
+*-env
+dist
+.coverage
+.vscode
+cognit.yml
