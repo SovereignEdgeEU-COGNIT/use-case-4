@@ -1,0 +1,13 @@
+users:
+  - user: malik
+    time_ranges:
+      - start_hour: 9
+        end_hour: 17
+  - user: user1
+    time_ranges:
+      - start_hour: 0
+        end_hour: 24
+ips:
+  - 127.0.0.1
+  - 10.8.1.14
+  - 10.11.250.251

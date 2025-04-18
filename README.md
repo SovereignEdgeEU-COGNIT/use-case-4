@@ -1,64 +1,84 @@
 # Use Case 4 - CyberSecurity
 
-![Use Case 4 - CyberSecurity](img/uclogo.png)
-
 UseCase 4 of the project focuses on Cybersecurity and highlights the utility of the COGNIT framework through the implementation of an anomaly detection scenario within a fleet of rovers (vehicles). The current architecture of the scenario includes the following components:
-Rover Data Collection: Rovers collect data, including system logs and metrics such as location, speed, and distance between vehicles.
+Rover Data Collection: Rovers collect system logs data.
 Data Transfer: The collected data is transmitted to the anomaly detection, which is deployed at the cluster level. This step aims to ensure fast (low latency) and secure transmission of data to the detection system.
 Anomaly Detection: Anomaly detection is performed using a Serverless Runtime. This component analyses incoming data to identify any significant deviations from normal behaviour patterns.
 Migration Management: A crucial aspect of UseCase 4 is to demonstrate the COGNIT framework's ability to manage the migration of serverless runtimes based on the itinerary and movement of the rovers. This functionality ensures service continuity and operational efficiency even in dynamic and constantly evolving environments.
 
-Here is a high level diagram of the architecture :    
+Here is a high level diagram of the architecture :
+
 ![Use Case 4 - CyberSecurity](img/uc_hl_archi.png)
 
-We implemented an architecture represented in the diagram below, which illustrates the interaction of our use case with the framework.
+We implemented an architecture represented in the diagram, which illustrates the interaction of our use case with the framework.
 
+In the `examples/` folder one can find the example of the anomaly detection functionality. Refer to  examples [README.md](examples/README.md) file for further information.
 
-We developed a function named “get_authentication_failures”, intended to be executed within the Serverless Runtime. This function uses a regular expression to search for authentication failures within the content of a log file. If authentication failures are detected, the function returns a warning message indicating the details of suspicious connection attempts. Otherwise, it indicates that everything is normal.
+## Technical overview
+
+This repository contains the Python implementation of the Device Runtime, an SDK designed to enable devices to communicate seamlessly with the COGNIT platform for task offloading. The Device Runtime provides a highly abstracted layer of communication between the COGNIT platform and end devices, simplifying the interaction process for users.
+
+At the core of this abstraction is a state machine, which autonomously manages all stages of communication without requiring direct user intervention. This allows for efficient and automated handling of the different states involved in the task offloading process.
+
+The communication with the Device Runtime involves two key components: the Cognit Frontend Client and the Edge Cluster Frontend. The Cognit Frontend Client allows the Device Runtime to offload functions that the device may wish to execute in the future, along with a comprehensive set of requirements, policies, and dependencies. Meanwhile, the Edge Cluster Frontend is responsible for executing those previously uploaded functions.
+
+## Developer Setup
+
+This repository has been built using **Python v3.10.6**, therefore it is highly recommended to maintain this Python version for development purposes. 
+
+For setting it up it is recommended installing the module virtualenv or, in order to keep the dependencies isolated from the system. 
+
+```bash
+pip install virtualenv
+```
+
+After that, one needs create a virtual environment and activate it:
+
+```bash
+python -m venv runtime-env
+source runtime-env/bin/activate
+```
+
+The following installs the needed dependencies from the requirements.txt file:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Setting up COGNIT module
+
+To set up the COGNIT module the following needs to be executed:
+
+```bash
+python setup.py sdist
+```
+
+In such a way that for installing it in an empty environment, one should:
+
+```bash
+pip install dist/cognit-0.0.0.tar.gz
+```
+
+Once done that, COGNIT module's installation will be fully completed. Now is possible to instantiate device runtimes in the same way as follows:
 
 ```python
-def get_authentication_failures(log_content):
-   import re
-   try:
-       authentication_failures = []
-       for line in log_content.split('\n'):
-           if re.search(r'pam_unix\(sshd:auth\): authentication failure', line):
-               authentication_failures.append(line.rstrip()) 
-       if authentication_failures:
-           result_message = "Anomaly Detection : Warning ! Connection attempt : \n" + "\n".join(authentication_failures)
-       else:
-           result_message = "Anomaly Detection : No message, Everything is fine"
-       return result_message
-   except Exception as e:
-       return "An error occurred while analysing the log file:"  + str(e)
+from cognit import device_runtime
+
+my_device_runtime = device_runtime.DeviceRuntime("./examples/cognit-template.yml")
 ```
 
-Next, we demonstrate how to invoke this function via the framework, by retrieving the content of the log file and passing it as a parameter to the function. We used the call_sync method to execute the function synchronously on the Serverless Runtime, providing the function and the log file content as parameters.
+## User's manual
 
-```python
-# Example offloading a function call to the Serverless Runtime
-# Loading the log file
-log_file_path = "./examples/auth.log"
-Try:
-   with open(log_file_path, "r") as log_file:
-       log_content = log_file.read()
-except FileNotFoundError:
-   print("The specified log file does not exist.")
-except Exception as e:
-   print("An error occurred while reading the log file:", e)
+There are several folders that might be interesting for a user that is getting acquainted with COGNIT:
 
-# call_sync sends to execute sync.ly to the already assigned Serverless Runtime.
-# First argument is the function, followed by the parameters to execute it.
-result = my_cognit_runtime.call_sync(get_authentication_failures, log_content)
-print("Offloaded function result:", result)
-```
-Finally, the result of the successful execution of the function is displayed by the Device Client Runtime, showing that authentication failures have been successfully detected, if any, and that the system is functioning as expected.
-```shell
-device_client_runtime | COGNIT Serverless Runtime ready!
+### Examples
 
-device_client_runtime | [2024-04-12 12:05:52,171] [WARNING] [_serverless_runtime_client.py::48] Faas execute sync [POST] URL: http://[2001:67c:22b8:1::e]:8000/v1/faas/execute-sync
+The anomaly detection function can be found in the `examples/` folder, see [README.md](examples/README.md).
 
-device_client_runtime | Offloaded function result: ret_code=<ExecReturnCode.SUCCESS: 0> res='Anomaly Detection : Warning ! Connection attempt : 
-- Apr 12 09:22:36 cognit-device-runtime sshd[248279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=X.X.X.X  user=atthacker
-- Apr 12 10:22:36 cognit-device-runtime sshd[248279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=X.X.X.X  user=atthacker' err=None
-```
+### Configuration
+
+The configuration for your COGNIT Device Runtime can be found in `cognit/test/config/cognit.yml`, with an example for running the tests.
+
+### Tests
+
+The `cognit/test/`  folder holds the tests for the COGNIT module. More info about how to run them in the [README.md](cognit/test/README.md) file.
