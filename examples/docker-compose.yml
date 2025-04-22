@@ -5,7 +5,8 @@ services:
     container_name: device_client_runtime
     build:
       context: ./..
-      dockerfile: ./examples/Dockerfile
-    stdin_open: true
-    tty: true
+      dockerfile: ./examples/minimal_offload_sync.dockerfile
     network_mode: host
+    volumes:
+    - .:/cognit/examples
+    - /etc/response_daemon:/cognit/queue
