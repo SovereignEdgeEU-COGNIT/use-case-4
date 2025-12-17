@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  device_client_runtime:
+    container_name: device_client_runtime_cc
+    build:
+      context: ./..
+      dockerfile: ./examples/uc4_offload_cc_function.dockerfile
+    network_mode: host

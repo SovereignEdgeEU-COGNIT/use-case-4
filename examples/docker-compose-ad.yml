@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   device_client_runtime:
-    container_name: device_client_runtime_minimal
+    container_name: device_client_runtime_ad
     build:
       context: ./..
-      dockerfile: ./examples/minimal_offload_sync.dockerfile
+      dockerfile: ./examples/uc4_offload_ad_function.dockerfile
     network_mode: host
     volumes:
     - .:/cognit/examples

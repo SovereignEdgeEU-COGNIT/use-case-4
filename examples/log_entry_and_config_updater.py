@@ -12,7 +12,7 @@ from typing import Dict, Tuple
 from dataclasses import dataclass
 from pathlib import Path
 
-REQUIREMENTS_FILE_PATH = "/cognit_simulator/uc4/requirements.yml"
+REQUIREMENTS_FILE_PATH = "./faas_requirements.yml"
 
 DUMMY = "\n".join([
     "Feb 24 07:32:39 lt-jla-2024 systemd-logind[941]: Removed session c1." + "\n" +
@@ -234,7 +234,7 @@ class RequirementsForm:
         """Collect all form fields"""
         current_config = self.config_manager.load_requirements()
 
-        flavour = self.get_user_input("FLAVOUR", current_config.get('FLAVOUR', 'NatureV2'))
+        flavour = self.get_user_input("FLAVOUR", current_config.get('FLAVOUR', 'CybersecV2test1'))
         if flavour is None:
             return None
         self.data.flavour = flavour
@@ -348,9 +348,9 @@ def main():
     while True:
         print("\n=== Log Entry Generator ===")
         print("1. Select entry from log_entries.yml")
-        print("2. Generate entry: User login outside allowed time range")
-        print("3. Generate entry: User login from invalid IP")
-        print("4. Custom log entry (manual input)")
+        #print("2. Generate entry: User login outside allowed time range")
+        #print("3. Generate entry: User login from invalid IP")
+        #print("4. Custom log entry (manual input)")
         print("5. Update requirements")
         print("0. Exit")
 
@@ -376,7 +376,7 @@ def main():
                 continue
                 
             if selected_entry:
-                line_to_add = DUMMY + f"{generate_timestamp()} {selected_entry}"
+                line_to_add = f"{selected_entry}"
                 if confirm_log_entry(line_to_add):
                     log(args.log_file, line_to_add)
                     print(f"Entry added to {args.log_file}.")

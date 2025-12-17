@@ -1,13 +1,5 @@
 abnormal:
-  - "CRON[42960]: Failed password for ros from 10.11.250.143 port 54900 ssh2"
-  - "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2 user=root"
-  - "sshd[12345]: Invalid user admin from 192.168.1.100"
-  - "sshd[12345]: User root not allowed because account is locked"
-  - "chmod: changing permissions of 'file.txt': Operation not permitted"
-  - "sshd[12345]: Connection closed by 192.168.1.100 [preauth]"
-  - "sudo: user1 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/ls"
+  - "Mar 29 12:06:24 server sshd[22346]: Failed password for root from 255.255.255.255 port 12345 ssh2"
 
 normal:
-  - "sshd[12345]: Accepted password for user1 from 192.168.1.10 port 54321 ssh2"
-  - "sshd[12345]: Disconnected from user1 192.168.1.10 port 54321"
-  - "sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/ls"
+  - "Apr 9 16:15:32 server sshd[12345]: Accepted password for user1 from 192.168.1.10 port 54321 ssh2"

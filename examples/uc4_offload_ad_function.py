@@ -11,14 +11,17 @@ from watchdog.events import FileSystemEventHandler
 
 from cognit import device_runtime
 from cognit.models._edge_cluster_frontend_client import ExecReturnCode
+from cognit.modules.dashboard_client import DashboardClient
 
-from log_analyzer import get_authentication_failures
+from decisionTree import get_authentication_failures
+from log_embedding_function import classify_log_line
 
 LOG_FILE_PATH = "/cognit/examples/auth.log"
 DEVICE_RUNTIME_CONFIG_PATH = "/cognit/examples/cognit-template.yml"
 REQUIREMENTS_FILE_PATH = "/cognit/examples/faas_requirements.yml"
 RULES_FILE_PATH = "/cognit/examples/rules.yml"
 QUEUE_FILE_PATH = "/cognit/queue/queue.json"
+DASHBOARD_CONFIG_PATH = "/cognit/examples/config-dashboard.yml"
 
 def load_requirements(requirements_path: str) -> dict:
     """Load requirements from YAML file.
@@ -145,25 +148,56 @@ class LogHandler(FileSystemEventHandler):
                     new_lines = f.readlines()
 
                     if new_lines:
+                        # Decision Tree analysis
                         # Process new lines through the COGNIT runtime
-                        status_code, result = self.device_runtime.call(
+                        response = self.device_runtime.call(
                             get_authentication_failures, new_lines, self.rules
                         )
+                        ret_code = response.ret_code
+                        result = response.res
+                        err = response.err
 
-                        if status_code == ExecReturnCode.SUCCESS:
+                        if ret_code == ExecReturnCode.SUCCESS:
                             self.last_position = f.tell()
-                            print(f"Processed new log entries. Results: {str(result)}", flush=True)
+                            print(f"[DT] Processed new log entries. Results: {str(result)}", flush=True)
                                 
+                            # Send results to dashboard
+                            if isinstance(result, dict):
+                                dashboard = DashboardClient()
+                                message = result.get('message', 'Anomalies processed')
+                                anomalies = result.get('anomalies', [])
+                                if anomalies:
+                                    dashboard.push_anomaly_result(message, anomalies)
+                            
                             # Process events and add them to the queue
-                            count = self.process_events(result)
+                            count = self.process_events(result if isinstance(result, dict) else {})
                             
                             if count > 0:
-                                print(f"Added {count} events to the queue")
-                            elif 'message' in result:
-                                print(f"Analysis result: {result['message']}")
-
+                                print(f"[DT] Added {count} events to the queue")
+                            elif isinstance(result, dict) and 'message' in result:
+                                print(f"[DT] Analysis result: {result['message']}")
                         else:
-                            print(f"Error processing log entries: {str(result)}", flush=True)
+                            print(f"[DT] Error processing log entries: {str(err)}", flush=True)
+                        
+                        
+                        # Embedding analysis
+                        for new_line in new_lines:
+                            response = self.device_runtime.call(
+                                classify_log_line, new_line
+                            )
+                            ret_code = response.ret_code
+                            result = response.res
+                            err = response.err
+                            print(f"[EM] Log entry sent to embedding function")
+
+                            if ret_code == ExecReturnCode.SUCCESS:
+                                print(f"[EM] Processed new log entry. Results: {str(result)}", flush=True)
+
+                                if isinstance(result, dict) and 'message' in result:
+                                    print(f"[EM] Analysis result: {result['message']}")
+                            else:
+                                print(f"[EM] Error processing log entries: {str(err)}", flush=True)
+            
             except FileNotFoundError:
                 print(f"Log file {self.log_path} not found, waiting for it to be created")
 
@@ -201,6 +235,19 @@ def main():
         if not validate_user_time_ranges(rules):
             print("Exiting due to missing time ranges.")
             return
+
+        # Initialize the Dashboard Client
+        try:
+            dashboard = DashboardClient(DASHBOARD_CONFIG_PATH)
+            print(f"Dashboard Client initialized: {dashboard.get_endpoint()}")
+            dashboard.push_log(
+                "UC4 Example started - monitoring authentication logs",
+                level="INFO",
+                source="uc4_example.py"
+            )
+        except Exception as e:
+            print(f"Warning: Could not initialize Dashboard Client: {e}")
+            print("Continuing without dashboard integration...")
 
         # Initialize the device runtime
         dr = device_runtime.DeviceRuntime(DEVICE_RUNTIME_CONFIG_PATH)
